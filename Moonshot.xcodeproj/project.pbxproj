@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39B42F682B40943E001BD4F5 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B42F672B40943E001BD4F5 /* MoonshotApp.swift */; };
-		39B42F6A2B40943E001BD4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B42F692B40943E001BD4F5 /* ContentView.swift */; };
+		39B42F6A2B40943E001BD4F5 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B42F692B40943E001BD4F5 /* Practice.swift */; };
 		39B42F6C2B409440001BD4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B42F6B2B409440001BD4F5 /* Assets.xcassets */; };
 		39B42F6F2B409440001BD4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B42F6E2B409440001BD4F5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		39B42F642B40943E001BD4F5 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B42F672B40943E001BD4F5 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
-		39B42F692B40943E001BD4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39B42F692B40943E001BD4F5 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		39B42F6B2B409440001BD4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39B42F6E2B409440001BD4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				39B42F672B40943E001BD4F5 /* MoonshotApp.swift */,
-				39B42F692B40943E001BD4F5 /* ContentView.swift */,
+				39B42F692B40943E001BD4F5 /* Practice.swift */,
 				39B42F6B2B409440001BD4F5 /* Assets.xcassets */,
 				39B42F6D2B409440001BD4F5 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B42F6A2B40943E001BD4F5 /* ContentView.swift in Sources */,
+				39B42F6A2B40943E001BD4F5 /* Practice.swift in Sources */,
 				39B42F682B40943E001BD4F5 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
