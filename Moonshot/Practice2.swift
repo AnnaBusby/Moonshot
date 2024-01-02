@@ -9,7 +9,32 @@ import SwiftUI
 
 struct Practice2: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            NavigationLink("Tap me") {
+                Practice()
+            }
+            
+            Divider()
+            
+            NavigationLink {
+                Text("Detail View 2")
+            } label: {
+                VStack {
+                    Text("This is the label")
+                    Text("So is this")
+                    Image(systemName: "face.smiling")
+                }
+                .font(.largeTitle)
+            }
+            
+            List(0..<100) { row in
+                NavigationLink("Whatever \(row)") {
+                    Text("Detail \(row)")
+                }
+            }
+            
+                .navigationTitle("SwiftUI")
+        }
     }
 }
 

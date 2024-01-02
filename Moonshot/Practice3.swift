@@ -7,9 +7,35 @@
 
 import SwiftUI
 
+struct User: Codable {
+    var name: String
+    var address: Address
+}
+
+struct Address: Codable {
+    var street: String
+    var city: String
+}
+
 struct Practice3: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Decode") {
+            let input = """
+               {
+                   "name": "Taylor Swift",
+                   "address": {
+                       "street": "555, Taylor Swift Avenue",
+                       "city": "Nashville"
+                   }
+               }
+               """
+            let data = Data(input.utf8)
+            let decoder = JSONDecoder()
+            
+            if let user = try? decoder.decode(User.self, from: data) {
+                print(user.address.city)
+            }
+        }
     }
 }
 
