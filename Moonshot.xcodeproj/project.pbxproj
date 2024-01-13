@@ -21,6 +21,7 @@
 		39B42F6F2B409440001BD4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B42F6E2B409440001BD4F5 /* Preview Assets.xcassets */; };
 		39B42F782B409A9F001BD4F5 /* Practice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B42F772B409A9F001BD4F5 /* Practice2.swift */; };
 		39D1597F2B52C092004F1D76 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1597E2B52C091004F1D76 /* MissionView.swift */; };
+		39D159812B52C8B7004F1D76 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D159802B52C8B6004F1D76 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		39B42F6E2B409440001BD4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39B42F772B409A9F001BD4F5 /* Practice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice2.swift; sourceTree = "<group>"; };
 		39D1597E2B52C091004F1D76 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		39D159802B52C8B6004F1D76 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				39B42F672B40943E001BD4F5 /* MoonshotApp.swift */,
 				39266C7B2B44B31F00998A7C /* ContentView.swift */,
 				39D1597E2B52C091004F1D76 /* MissionView.swift */,
+				39D159802B52C8B6004F1D76 /* AstronautView.swift */,
 				39266C772B44AF6700998A7C /* Astronaut.swift */,
 				39266C7D2B44B6E600998A7C /* Mission.swift */,
 				39266C792B44B02000998A7C /* Bundle-Decodable.swift */,
@@ -175,6 +178,7 @@
 				39266C7C2B44B31F00998A7C /* ContentView.swift in Sources */,
 				39266C782B44AF6800998A7C /* Astronaut.swift in Sources */,
 				39B42F782B409A9F001BD4F5 /* Practice2.swift in Sources */,
+				39D159812B52C8B7004F1D76 /* AstronautView.swift in Sources */,
 				39B42F682B40943E001BD4F5 /* MoonshotApp.swift in Sources */,
 				39266C802B44BE3E00998A7C /* Color-Theme.swift in Sources */,
 				39266C7A2B44B02000998A7C /* Bundle-Decodable.swift in Sources */,
