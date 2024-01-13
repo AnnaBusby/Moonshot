@@ -38,6 +38,12 @@ struct MissionView: View {
                         .font(.title.bold())
                         .padding(.bottom, 5)
                     
+                    if mission.formattedLaunchDate != "N/A" {
+                        Text("Launch Date: \(mission.formattedLaunchDate)")
+                            .font(.headline)
+                            .foregroundStyle(.secondary)
+                            .padding(.bottom, 5)
+                    }
                     Text(mission.description)
                     
                     Rectangle()
